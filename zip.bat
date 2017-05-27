@@ -2,5 +2,5 @@
 	@echo Opening zip tools
 	winrar.lnk
 ) else (
-	winrar.lnk %1 %2 %3 %4
+	winrar.lnk a -ep1 -r %1 %2 %3 %4
 )
